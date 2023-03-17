@@ -1,0 +1,13 @@
+{
+  "@context": "https://irma.app/ld/request/issuance/v2",
+  "credentials": [
+    {
+      "credential": "irma-demo.surf.eduid",
+      "attributes": {
+        "eppn": "65449978-1498-4008-aba0-50f70f45088a",
+        "displayname": "John Doe",
+        "emailadres": "john.doe@example.com"
+      }
+    }
+  ]
+}

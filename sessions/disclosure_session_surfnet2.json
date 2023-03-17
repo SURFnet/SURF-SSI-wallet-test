@@ -1,0 +1,23 @@
+{
+  "@context": "https://irma.app/ld/request/disclosure/v2",
+  "disclose": [
+    [
+      [
+        "irma-demo.pbdf.surfnet-2.fullname"
+      ]
+    ],
+    [
+      [
+        "irma-demo.pbdf.surfnet-2.email"
+      ]
+    ]
+  ],
+  "labels": {
+    "0": {
+      "en": "Your full name"
+    },
+    "1": {
+      "en": "Your email address"
+    }
+  }
+}

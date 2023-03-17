@@ -1,0 +1,14 @@
+{
+  "@context": "https://irma.app/ld/request/issuance/v2",
+  "credentials": [{
+    "credential": "irma-demo.surf.edubadge",
+    "attributes": {
+      "learner_id": "1d623b89683f9ce4e074de1676d12416",
+      "badge_issued_on": "2022-11-21T15:09:08.487Z",
+      "badge_logo_url": "https://api.edubadges.nl/media/uploads/badges/issuer_badgeclass_dcfcdfec-6ca0-41e0-a5cb-908345a0d6b9.png",
+      "badge_title": "Advanced Food Physics - Reology and fracture of soft solids",
+      "badge_issuer": "Wageningen University & Research - Professional Education",
+      "badge_issuer_logo_url": "https://wiki.surfnet.nl/download/thumbnails/35801321/logo_edubadges.png?version=1&modificationDate=1602609181770&api=v2"
+    }
+  }]
+}

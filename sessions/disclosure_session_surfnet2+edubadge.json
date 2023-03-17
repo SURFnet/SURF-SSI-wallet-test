@@ -1,0 +1,36 @@
+{
+  "@context": "https://irma.app/ld/request/disclosure/v2",
+  "disclose": [
+    [
+      [
+        "irma-demo.pbdf.surfnet-2.fullname"
+      ]
+    ],
+    [
+      [
+        "irma-demo.pbdf.surfnet-2.email"
+      ]
+    ],
+    [
+      [
+        "irma-demo.surf.edubadge.learner_id",
+        "irma-demo.surf.edubadge.badge_issued_on",
+        "irma-demo.surf.edubadge.badge_logo_url",
+        "irma-demo.surf.edubadge.badge_title",
+        "irma-demo.surf.edubadge.badge_issuer",
+        "irma-demo.surf.edubadge.badge_issuer_logo_url"
+      ]
+    ]
+  ],
+  "labels": {
+    "0": {
+      "en": "Your full name"
+    },
+    "1": {
+      "en": "Your email address"
+    },
+    "2": {
+      "en": "Test eduBadge"
+    }
+  }
+}

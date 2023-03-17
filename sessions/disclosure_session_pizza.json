@@ -1,0 +1,15 @@
+{
+  "@context": "https://irma.app/ld/request/disclosure/v2",
+  "disclose": [
+    [
+      [
+        "irma-demo.surf.surfconext.affiliation"
+      ]
+    ]
+  ],
+  "labels": {
+    "0": {
+      "en": "Proof of being a student"
+    }
+  }
+}

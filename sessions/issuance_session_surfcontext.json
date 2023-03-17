@@ -1,0 +1,18 @@
+{
+  "@context": "https://irma.app/ld/request/issuance/v2",
+  "credentials": [
+    {
+      "credential": "irma-demo.surf.surfconext",
+      "attributes": {
+        "institute": "UvA",
+        "affiliation": "affiliate",
+        "id": "123456789",
+        "fullid": "ASDF-123456789",
+        "fullname": "John Doe",
+        "firstname": "John",
+        "familyname": "Doe",
+        "email": "john.doe@example.com"
+      }
+    }
+  ]
+}

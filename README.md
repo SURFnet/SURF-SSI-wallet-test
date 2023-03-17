@@ -7,6 +7,8 @@ All rights reserved. This software is distributed under the Apache 2.0 license. 
 
 These test scripts were created for the development and testing of the eduID Wallet PoC. The scripts leverage IRMA CLI commands to quickly issue or verify credential statements for use with an IRMA/YiVi wallet or the demo wallet created as part of this PoC.
 
+For the purpose of the PoC a custom IRMA scheme was created adding an eduID and edubadges issuer. To test with these make sure to use the custom scheme as described in step 2, but also add that to the issuers and verifiers you want to test with.  
+
 ## PREREQUISITES
 To use these scripts you need to install the IRMA CLI client, as described in the IRMA documentation (see below).
 
@@ -24,13 +26,12 @@ using the instruction from [this docs page](https://irma.app/docs/irma-cli/).
 
 #### Step 2
 
-Clone the custom `irma-demo` scheme and revoke the write permissions to the `schemes` directory (to
-prevent automatic scheme updates).
+Clone the custom `irma-demo` scheme and revoke the write permissions to the `schemes` directory (to prevent automatic scheme updates).
 
 ```shell
 $ mkdir schemes
 $ cd schemes
-$ git clone 'https://github.com/surfnet-niels/irma-demo-schememanager.git' niels-irma-demo
+$ git clone 'git@github.com:SURFnet/SURF-SSI-wallet-scheme.git' eduidwallet-irma-demo
 $ cd ..
 $ chmod -R -w schemes
 ```
